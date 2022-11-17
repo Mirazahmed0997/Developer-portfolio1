@@ -26,7 +26,7 @@ span {
 .width img {
     border: 5px solid white;
     border-radius: 100px;
-    width: 65%;
+    width: 60%;
     padding-left: 30%;
     padding-top: 10%;
 
@@ -58,6 +58,7 @@ span {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    width: 90%;
 }
 
 .color {
@@ -84,6 +85,12 @@ span {
 .third-section {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat
+}
+
+.contact {
+    color: black;
+    font-size: 20;
+    font-weight: 700;
 }
 
 footer {
