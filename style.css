@@ -141,7 +141,7 @@ img {
     font-weight: 700;
 }
 
-img:hover {
+#im:hover {
     width: 500px;
     position: relative;
 }
