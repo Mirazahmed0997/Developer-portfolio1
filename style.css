@@ -148,8 +148,8 @@ footer {
 #im:hover {
     width: 400px;
     height: 400px;
+    position: absolute;
 
-    position: relative;
 }
 
 
