@@ -84,7 +84,11 @@ span {
 
 .third-section {
     background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+}
+
+.cont {
+    padding-left: 10px;
 }
 
 .contact {
@@ -97,4 +101,78 @@ footer {
     text-align: center;
     color: rgba(0, 0, 0, 0.473);
     margin-bottom: 5px;
+}
+
+
+
+/* Gallary part */
+
+
+.gh {
+    text-align: center;
+    padding: 20px;
+    background-color: aqua;
+    margin: 0%;
+}
+
+.photos {
+    display: flex;
+    padding-top: 20px;
+}
+
+.gallary {
+    width: 20%;
+    height: 20%;
+    margin: 2px 5px;
+    background-color: black;
+
+
+}
+
+img {
+    width: 100%;
+}
+
+.g {
+    background-color: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    font-weight: 700;
+}
+
+img:hover {
+    width: 500px;
+    position: relative;
+}
+
+
+
+header {
+    margin: 0%;
+    background-image: url(images/abstract-orange-background-with-lines-halftone-effect_1017-32107.png);
+}
+
+/* nav part */
+nav {
+    display: flex;
+    list-style: none;
+
+}
+
+nav>li {
+
+    margin: 10px;
+    padding: 5px;
+}
+
+nav>li>a {
+    text-decoration: none;
+    font-weight: 700;
+
+
+}
+
+nav li:hover {
+    background-color: lightgray;
 }
