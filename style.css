@@ -118,11 +118,13 @@ footer {
 .photos {
     display: flex;
     padding-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .gallary {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     margin: 2px 5px;
     background-color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
@@ -157,7 +159,7 @@ footer {
 header {
     margin: 0%;
     background-image: url(images/hand-painted-watercolor-pastel-sky-background_23-2148902771.png);
-    height: 500px;
+    height: 100%;
 }
 
 /* navigation part */
@@ -185,4 +187,14 @@ nav>li>a {
 
 nav li:hover {
     background-color: lightgray;
+}
+
+@media screen and (max-width:576px) {
+    .photos {
+        flex-direction: column;
+    }
+
+    .photos .gallary {
+        width: 100%;
+    }
 }
